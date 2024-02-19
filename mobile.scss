@@ -1,0 +1,631 @@
+
+
+
+/* iphone and ipad */
+@media only screen and (max-width: 1245px) {
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        .container-header{
+            width: 100%;
+            margin-right: 0;
+           .main{
+            display: none;
+           }
+        }
+      .menu{
+        display: block;
+      }
+    }
+    .banner{
+        .container{
+            .banner-item{
+                padding: 200px 0;
+                .banner-text{
+                    max-width: none;
+                    h1{
+                        font-size: 40px;
+                        line-height: 150.19%;
+                    }
+                    .btn-contact{
+                        padding: 10px 70px;
+                    }
+                }
+            }
+        }
+    }
+    .gallery{
+        .container{
+            .gallery-img{
+                flex-direction: column;
+                .option:nth-child(2){
+                    margin: 0 0;
+                    margin-bottom: 50px;
+                }
+                .option:nth-child(3){
+                    margin-bottom: 0;
+                }
+                .option{
+                    margin-bottom: 50px;
+                    width: 100%;
+                    .img{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .title{
+                        max-width: none;
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
+    }
+    .activities{
+        h2{
+            margin-bottom: 40px;
+        }
+        .container{
+            .list{
+                .item:nth-child(even){
+                    margin: 0 0;
+                    flex-direction: column;
+                    margin-bottom: 50px;
+                }
+                .text{
+                    max-width: none;
+                }
+                .item{
+                    margin-bottom: 50px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    .item-img{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .item-text{
+                        margin-left: 0;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .partner{
+        margin-top: 0;
+        .container{
+            .title{
+                margin-right: 0;
+            }
+        }
+    }
+    .team{
+        .container{
+            grid-template-columns: 1fr 2fr ;
+            gap: 100px;
+            .team-avt{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+    .collaborator{
+        padding: 120px 0;
+        .container{
+            .title{
+                text-align: center;
+            }
+            .founder{
+                .text{
+                    max-width: 650px;
+                }
+                .ceo{
+                    .ceo-text{
+                        margin: 0 240px 0 20px;
+                        h4{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            flex-direction: column;
+            margin-right: 0;
+            .footer-left{
+                margin-bottom: 70px;
+                p{
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+    
+  }
+@media only screen and (max-width: 912px) {
+    
+    .banner{
+        padding-top: 150px;
+        .container{
+            .banner-item{
+                padding: 0;
+                .banner-text{
+                    max-width: none;
+                    margin-bottom: 100px;
+                    h1{
+                        font-size: 40px;
+                        line-height: 150.19%;
+                    }
+                    .btn-contact{
+                        padding: 10px 70px;
+                    }
+                }
+                .banner-img{
+                    position: relative;
+                    top: 0;
+                }
+            }
+        }
+    }
+    .gallery{
+        .container{
+            .gallery-img{
+                flex-direction: column;
+                .option:nth-child(2){
+                    margin: 0 0;
+                    margin-bottom: 50px;
+                }
+                .option{
+                    margin-bottom: 50px;
+                    width: 100%;
+                    .img{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .title{
+                        max-width: none;
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
+    }
+    .activities{
+        .container{
+            .title{
+                line-height: 50px;
+
+            }
+            .list{
+                .item:nth-child(even){
+                    margin: 0 0;
+                    flex-direction: column;
+                    margin-bottom: 50px;
+                }
+                .text{
+                    max-width: none;
+                }
+                .item{
+                    margin-bottom: 50px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    .item-img{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .item-text{
+                        margin-left: 0;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .partner{
+        margin-top: 0;
+        .container{
+            .title{
+                margin-right: 0;
+            }
+        }
+    }
+    .team{
+        .container{
+            gap: 50px;
+        }
+    }
+    .collaborator{
+        padding: 120px 0;
+        .container{
+            flex-direction: column;
+            .title{
+                text-align: start;
+            }
+            
+            .founder{
+                .text{
+                    max-width: 650px;
+                }
+                .ceo{
+                  margin-top: 70px;
+                    .ceo-text{
+                        margin: 0 270px 0 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .container-footer{
+            flex-direction: column;
+            margin-right: 0;
+            .footer-left{
+                margin-bottom: 70px;
+            }
+        }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    header{
+        .container-header{
+            .text-logo{
+                font-size: 20px;
+            }
+            .text-img{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .banner{ 
+        .container{
+            .banner-item{
+                padding: 0 0;
+                .banner-text{
+                    padding:  0;
+                    margin-bottom: 80px;
+                    h1{
+                        font-size: 31px;
+                    }
+                    p{
+                        font-size: 17px;
+                        margin: 10px 0;
+                    }
+                    .btn-contact{
+                        padding: 10px 40px;
+                        span{
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .banner-img{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .gallery{
+        .container{
+            .gallery-text{
+                h2{
+                    font-size: 20px;
+                }
+                .gallery-icon{
+                    .circle{
+                        padding: 6px 13px;
+                    }
+                }
+            }
+            .gallery-img{
+                .option{
+                    h3{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .activities{
+        .container{
+           .title{
+            font-size: 50px;
+            margin-bottom: 30px;
+            line-height: 70px
+            
+           }
+           .list{
+            .item{
+                .item-text{
+                    h3{
+                        font-size: 35px;
+                        line-height: 45px;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin: 8px 0;
+                    }
+                    .btn{
+                        .btn-icon{
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+           }
+        }
+    }
+    .partner{
+        .container{
+            padding: 60px 0;
+            img{
+                width: 25%;
+            }
+            .title{
+                margin-bottom: 50px;
+                font-size: 20px;
+            }
+            .img-top{
+                margin-bottom: 30px;
+            }
+        }
+    }
+  }
+  @media only screen and (max-width: 415px) {
+    header{
+        .container-header{
+            .text-logo{
+                font-size: 20px;
+            }
+            .text-img{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .banner{
+        .container{
+            .banner-item{
+                padding: 0 0;
+                .banner-text{
+                    padding: 0;
+                    margin-bottom: 50px;
+                    h1{
+                        font-size: 25px;
+                    }
+                    p{
+                        font-size: 14px;
+                        margin: 10px 0;
+                    }
+                    .btn-contact{
+                        padding: 5px 30px;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+    .gallery{
+        margin: 70px 0;
+        .container{
+            .gallery-text{
+                h2{
+                    font-size: 20px;
+                }
+                .gallery-icon{
+                    .circle{
+                        padding: 6px 13px;
+                    }
+                }
+            }
+            .gallery-img{
+                .option{
+                    h3{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .activities{
+        .container{
+           .title{
+            font-size: 35px;
+            margin-bottom: 30px;
+            line-height: 70px
+            
+           }
+           .list{
+            .item{
+                .item-text{
+                    h3{
+                        font-size: 20px;
+                        line-height: 45px;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin: 8px 0;
+                    }
+                    .btn{
+                        .btn-icon{
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+           }
+        }
+    }
+    .partner{
+        .container{
+            padding: 60px 0;
+            img{
+                width: 25%;
+            }
+            .title{
+                margin-bottom: 50px;
+                font-size: 20px;
+            }
+            .img-top{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .team{
+        margin: 100px 0;
+        .container{
+            .title{
+                font-size: 20px;
+                line-height: 35px;
+            }
+            .team-avt{
+                .avt{
+                    .text{
+                        h4{
+                            font-size: 10px;
+                            line-height: 130%;
+                            margin: 10px 0;
+                        }
+                        p{
+                            font-size: 8px;
+                            line-height: 15px;
+                        }
+                    }
+                    .img{
+                        width: 80%;
+                        margin: auto;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .collaborator{
+        padding: 70px 0;
+        .container{
+            .title{
+                font-size: 20px;
+                line-height: 35px;
+            }
+            .founder{
+                .ceo{
+                    margin-top: 30px;
+                    .ceo-text{
+                        margin: 0;
+                        margin: 0 20px;
+                        h4{
+                            font-size: 17px;
+                        }
+                    }
+                    .ceo-icon{
+                        .circle{
+                            padding: 10px 10px;
+                        }
+                    }
+                }
+                p{
+                    margin-top: 25px;
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+    .about{
+        .container{
+            .title{
+                margin-bottom: 35px;
+                font-size: 20px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
+    }
+    footer{
+        padding: 80px 0;
+        .container-footer{
+            .footer-left{
+                margin-bottom: 60px;
+                .footer-logo{
+                    font-size: 25;
+                }
+                p{
+                    margin: 17px 0;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                .btn{
+                    .btn-icon{
+                        width: 38px;
+                        height: 37px;
+                    }
+                }
+            }
+            .footer-right{
+                h2{
+                    font-size: 25px;
+                    line-height: 20px;
+                }
+                ul{
+                    flex-direction: column;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+  }
+  @media only screen and (max-width: 376px) {
+    .banner{
+        .container{
+            .banner-item{
+                padding: 0 0;
+                .banner-text{
+                    padding:  0;
+                    margin-bottom: 30px;
+                    h1{
+                        font-size: 23px;
+                    }
+                    p{
+                        font-size: 12px;
+                        margin: 10px 0;
+                    }
+                    .btn-contact{
+                        padding: 5px 25px;
+                        span{
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+  }

@@ -1,0 +1,130 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.container-footer{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    overflow: hidden;
+    
+}
+.container-header{
+    max-width: 1350px;
+    margin: auto;
+    padding: 0 15px;
+    overflow: hidden;
+    margin-right: 100px
+}
+
+
+.btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn:hover .btn-icon{
+ transform: translateX(10px);
+ transition: 0.3s;
+}
+.btn:hover .btn-text{
+    color: darkgoldenrod;
+   }
+
+.btn .btn-icon{
+    border: 1px solid;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 15px;
+
+}
+.btn img{
+    position: absolute;
+    top: 33.3%;
+    left: 33.3%;
+    display: block;
+}
+
+.option h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 154.69%;
+    letter-spacing: 0.01em;
+    color: #F0F0F0;
+    margin: 30px 0;
+    max-width: 390px;
+}
+.option span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #F0F0F0;
+    opacity: 0.6;
+    
+}
+.option-btn{
+    display: flex;
+    max-width: max-content;
+    cursor: pointer;
+}
+.option-btn:hover img{
+    transform: translateX(10px);
+    transition: all 0.3s;
+}
+.option-btn img{
+    margin-left: 10px;
+}
+.item h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 139.19%;
+    display: flex;
+    align-items: center;
+    color: #F0F0F0;
+}
+.item p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F0F0F0;
+    opacity: 0.6;
+    max-width: 450px;
+    margin: 20px 0;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item-text{
+    margin-left: 70px;
+}
+
+.circle {
+    border: 1px solid cornsilk;
+    border-radius: 50px;
+    max-width: max-content;
+    padding: 15px 15px;
+    margin-left: 20px;
+}
